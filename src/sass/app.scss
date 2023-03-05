@@ -4,8 +4,46 @@ html{
     font-family: sans-serif;
 }
 
+.title-wrapper {
+    padding: .5rem;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .app__title{
-    color: blue;
-    font-size: 3em;
-    font-weight: 200;
+    color: white;
+    font-size: 1em;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.article {
+
+    &__card {
+        border: 2px solid blue;
+        border-radius: 0.5rem;
+        margin: 2rem;
+        padding: 2rem;
+        position: relative;
+    }
+
+    &__title {
+        color: blue;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+        font-weight: 700;
+    }
+
+    &__category {
+        position: absolute;
+        background-color: blue;
+        color: white;
+        padding: 0.5rem 1rem;
+        margin: 0.5rem;
+        border-radius: 0.3rem;
+        top: 0;
+        right: 0;
+    }
 }
