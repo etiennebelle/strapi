@@ -1,1 +1,1 @@
-# test_strapi
+# first strapi app
